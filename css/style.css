@@ -9,7 +9,6 @@ body{
 }
 .content{
     grid-area: content;
-    background: 
 }
 .sidebar{
     grid-area: sidebar;
@@ -102,7 +101,7 @@ footer ul{
 footer ul li {
     list-style: none;
     align-self: flex-end;
-    color: #cic6ce;
+    color: #cac6ce;
 }
 svg{
     width:50%;
