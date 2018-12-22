@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Nunito', sans-serif;
@@ -8,6 +9,7 @@ body{
 }
 .content{
     grid-area: content;
+    background: 
 }
 .sidebar{
     grid-area: sidebar;
@@ -34,7 +36,7 @@ body{
     align-items: center;
 }
 .content, .sidebar, .footer {
-    padding: .7em;
+    padding:1em;
 }
 nav ul {
     margin: 0%;
@@ -67,9 +69,9 @@ nav li a:hover{
     width: 200px;
 }
 .hero h1{
-    padding: .5em 0;
+    padding: .5em;
     font-size: 1.3em;
-    font-weight: 400;
+    font-weight: 300;
     color: #373d46;
 }
 .hero p{
@@ -93,7 +95,7 @@ nav li a:hover{
     box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
 }
 footer ul{
-    max-width: 650px;
+    max-width: 640px;
     margin: 2em auto;
     padding: 0;
     text-align: center;
@@ -103,11 +105,17 @@ footer ul{
 footer ul li {
     list-style: none;
     align-self: flex-end;
-    color: #cac6ce;
+    color: #cic6ce;
 }
 svg{
     width:50%;
 }
+
+
+
+
+
+
 
 @media(min-width:1040px){
      .container{
@@ -116,12 +124,14 @@ svg{
          "sidebar footer";
          grid-template-columns: 300px 1fr;
          grid-template-rows: 1fr auto;
+         align-items: flex-end; 
      }
      .action-btn :hover{
         box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
     }
      nav ul{
          display: flex;
+         margin-top: 5em;
          justify-content:space-between;
          flex-direction: column;
      }
@@ -136,6 +146,7 @@ svg{
          opacity: 1;
      }
      .sidebar{
+         height: 100vh;
          padding-top: 3em;
      }
      .hero{
@@ -147,6 +158,8 @@ svg{
          float: right;
      }
      .hero h1{
+         padding: 0 0 .2em 0;
+         margin 0;
          font-size:2.5em;
      }
      .hero p {
