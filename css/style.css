@@ -36,7 +36,7 @@ body{
     align-items: center;
 }
 .content, .sidebar, .footer {
-    padding:1em;
+    padding:.6em;
 }
 nav ul {
     margin: 0%;
