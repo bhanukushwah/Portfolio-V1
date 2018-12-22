@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 .content, .sidebar, .footer {
-    padding: .8em;
+    padding: .7em;
 }
 nav ul {
     margin: 0%;
@@ -68,11 +68,12 @@ nav li a:hover{
 }
 .hero h1{
     padding: .5em 0;
-    font-size: 1.5em;
-    font-weight: 300;
+    font-size: 1.3em;
+    font-weight: 400;
     color: #373d46;
 }
 .hero p{
+    font-size: 1em;
     font-weight: 300;
     text-decoration: none;
     color: #555555;
