@@ -110,7 +110,21 @@ svg{
     width:50%;
 }
 
-
+svg:hover #twitter { 
+    fill: #1DA1F2;
+  }
+  svg:hover #linkedin { 
+     fill: #0077B5;
+   }
+   svg:hover #behance { 
+     fill: #053eff;
+   }
+   svg:hover #dribbble { 
+     fill: #ea4c89;
+   }
+   svg:hover #github { 
+     fill: #211F1F;
+   }
 
 
 
@@ -172,4 +186,19 @@ svg{
      svg{
          width: 20%;
      }
+     svg:hover #twitter { 
+       fill: #1DA1F2;
+     }
+     svg:hover #linkedin { 
+        fill: #0077B5;
+      }
+      svg:hover #behance { 
+        fill: #053eff;
+      }
+      svg:hover #dribbble { 
+        fill: #ea4c89;
+      }
+      svg:hover #github { 
+        fill: #211F1F;
+      }
 }
